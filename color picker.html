@@ -33,7 +33,7 @@
 	}
 	$('#canvas_picker').click(function(event){
 	  // getting user coordinates
-	  var  = event.pageX - this.offsetLeft;
+	  var x = event.pageX - this.offsetLeft;
 	  var y = event.pageY - this.offsetTop;
 	  // getting image data and RGB values
 	  var img_data = canvas.getImageData(x, y, 1, 1).data;
